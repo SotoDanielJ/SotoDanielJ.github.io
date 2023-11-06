@@ -1,32 +1,40 @@
+html{
+    width: auto;
+}
 body{
-    height: 3770px;
+    height: auto;
     box-sizing: border-box;
     margin: auto;
     background: url(/images/nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat;
     background-size: cover;
+    width: auto;
+    margin: 0;
 }
 
-header .pic a img{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 200px;
 }
+
 a img{
-    position: relative;
-    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 nav{
-    height: 400px
+    height: 60px
 }
 .nav-heads{
     display: flex;
     justify-content: center;
     align-items: start;
     list-style-type: none;
-    padding-left: 20%;
-    padding-top:2%;
+    padding-left: 15%;
+    padding-top:1%;
     inline-size: auto;
     writing-mode: horizontal-tb;
     font-palette:rgba(33, 134, 248, 0.87);
@@ -38,21 +46,19 @@ nav{
     flex: 1;
     flex-basis: fit-content; 
     flex-direction: row;
-    font-size: 6em;
+    font-size: 1.5em;
     white-space: nowrap;
 }
 
 h1{
     color: rgba(18, 123, 243, 0.87);
-    font-size: 7em;
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin: 0; */
-    height: 256px;
+    margin: 0;
+    height: 60px;
     /* padding: 2%; */
-    border-bottom: 1px solid rgba(18, 123, 243, 0.87);
-    border-bottom-style: ;
 }
 
 #pic2{
@@ -60,12 +66,13 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2000px;
+    height: 400px;
     margin: 0;
     padding: 0;
 }
 p img{
-    height: 2000px;
+    height: 400px;
+    border-bottom: 1px solid rgba(18, 123, 243, 0.87);
 }
 h2{
     color: rgba(18, 123, 243, 0.87);
