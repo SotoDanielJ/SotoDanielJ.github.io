@@ -57,6 +57,7 @@ h1 p{
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 .h{
@@ -72,13 +73,12 @@ h1 p{
     padding-right: 2%;
     padding: 2%;
     color: aliceblue;
-    background-color: black;
     opacity: 80%;
 }
 
 .indent {
     text-indent: 40px;
-  }
+}
 footer p{
     display: flex;
     align-items: center;

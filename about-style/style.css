@@ -70,7 +70,8 @@ h1 p{
 .about{
     padding-left: 2%;
     padding-right: 2%;
-    padding: 2%;
+    padding-bottom: 1.5%;
+    padding-top: 0.5%;
     color: aliceblue;
     background-color: black;
     opacity: 80%;
@@ -78,7 +79,7 @@ h1 p{
 
 .indent {
     text-indent: 40px;
-  }
+}
 footer p{
     display: flex;
     align-items: center;
@@ -89,27 +90,44 @@ footer p{
 }
 
 .buttons{
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
 }
 
 .button1{
-    position: absolute;
-    left: 19%;
+    margin: 1%;
+    /* position: absolute;
+    left: 13%; */
     inline-size: auto;
     cursor: pointer;
 }
 .button2{
-    position: absolute;
-    left: 44%;
+    margin: 1%;
+    /* position: absolute;
+    left: 58%; */
     inline-size: auto;
     cursor: pointer;
 }
 .button3{
-    position: absolute;
-    left: 66%;
+    margin: 1%;
+    /* position: absolute;
+    left: 72%; */
+    inline-size: auto;
+    cursor: pointer;
+}
+.button4{
+    margin: 1%;
+    /* position: absolute;
+    left: 28%; */
+    inline-size: auto;
+    cursor: pointer;
+}
+.button5{
+    margin: 1%;
+    /* position: absolute;
+    left: 43%; */
     inline-size: auto;
     cursor: pointer;
 }
@@ -206,4 +224,67 @@ footer p{
     box-shadow:
     inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button4 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+text-align: center;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+border-radius: 10px;
+background-color: rgba(18, 123, 243, 0.87);
+background-image: linear-gradient(
+to top left,
+rgba(0, 0, 0, 0.2),
+rgba(0, 0, 0, 0.2) 30%,
+rgba(0, 0, 0, 0)
+);
+box-shadow:
+inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button4:hover {
+background-color: rgba(18, 123, 243, 0.87);
+}
+
+.button4:active {
+box-shadow:
+inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.button5 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+text-align: center;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+border-radius: 10px;
+background-color: rgba(18, 123, 243, 0.87);
+background-image: linear-gradient(
+to top left,
+rgba(0, 0, 0, 0.2),
+rgba(0, 0, 0, 0.2) 30%,
+rgba(0, 0, 0, 0)
+);
+box-shadow:
+inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button5:hover {
+background-color: rgba(18, 123, 243, 0.87);
+}
+
+.button5:active {
+box-shadow:
+inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
