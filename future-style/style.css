@@ -1,7 +1,8 @@
-html{
+html {
     width: auto;
 }
-body{
+
+body {
     height: auto;
     box-sizing: border-box;
     margin: auto;
@@ -19,25 +20,25 @@ body{
     margin-right: auto;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
 }
 
-a img{
+a img {
     height: 200px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px
 }
 
-h1{
+h1 {
     color: rgba(18, 123, 243, 0.87);
     font-size: 2em;
     display: flex;
@@ -48,18 +49,18 @@ h1{
     width: 1217px; */
 }
 
-h1 p{
+h1 p {
     margin-bottom: 5%;
 }
 
-.border{
+.border {
     border-bottom: 1px solid rgba(18, 123, 243, 0.87);
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 1%;
 }
 
-.h{
+.h {
     display: block;
     box-sizing: border-box;
     margin-left: auto;
@@ -67,7 +68,7 @@ h1 p{
 
 }
 
-.future{
+.future {
     padding-left: 2%;
     padding-right: 2%;
     padding: 2%;
@@ -76,10 +77,38 @@ h1 p{
     opacity: 80%;
 }
 
+.f {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.f img {
+    margin-top: 2%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fp {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    object-fit: scale-down;
+    margin-top: 2%;
+}
+
+.fi {
+    border-bottom: 1px solid rgba(18, 123, 243, 0.87);
+    width: 1000px;
+    padding-bottom: 1%;
+}
+
 .indent {
     text-indent: 40px;
-  }
-footer p{
+}
+
+footer p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,28 +117,30 @@ footer p{
     height: 50px;
 }
 
-.buttons{
-    display: block;
+/* Buttons */
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0;
+    width: 100%;
 }
 
-.button1{
-    position: absolute;
-    left: 19%;
+.button1 {
+    margin: 1%;
+    /* position: absolute;
+    left: 19%; */
     inline-size: auto;
     cursor: pointer;
 }
-.button2{
-    position: absolute;
-    left: 44%;
-    inline-size: auto;
-    cursor: pointer;
-}
-.button3{
-    position: absolute;
-    left: 66%;
+
+.button2 {
+    /* position: absolute;
+    left: 19%; */
     inline-size: auto;
     cursor: pointer;
 }
@@ -125,15 +156,13 @@ footer p{
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: rgba(18, 123, 243, 0.87);
-    background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-    );
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
     box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .button1:hover {
@@ -142,9 +171,10 @@ footer p{
 
 .button1:active {
     box-shadow:
-    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+
 .button2 {
     border: 0;
     line-height: 2.5;
@@ -156,46 +186,43 @@ footer p{
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: rgba(18, 123, 243, 0.87);
-    background-image: linear-gradient(
-        to top left,
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2) 30%,
-        rgba(0, 0, 0, 0)
-        );
-        box-shadow:
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow:
         inset 2px 2px 3px rgba(255, 255, 255, 0.6),
         inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-    }
-    
-    .button2:hover {
-        background-color: rgba(18, 123, 243, 0.87);
-    }
-    
-    .button2:active {
-        box-shadow:
+}
+
+.button2:hover {
+    background-color: rgba(18, 123, 243, 0.87);
+}
+
+.button2:active {
+    box-shadow:
         inset -2px -2px 3px rgba(255, 255, 255, 0.6),
         inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-    }
-    .button3 {
-        border: 0;
-        line-height: 2.5;
-        padding: 0 20px;
-        font-size: 1rem;
-        font-family: 'Courier New', Courier, monospace;
+}
+
+.button3 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: rgba(18, 123, 243, 0.87);
-    background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-    );
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
     box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .button3:hover {
@@ -204,6 +231,40 @@ footer p{
 
 .button3:active {
     box-shadow:
-    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+/* Smartphones */
+@media only screen and (max-width: 500px) {
+    #smartphone h1{
+        display: block;
+    }
+}
+
+/* Tablet */
+@media(min-width: 501px) and (max-width: 768px) {
+    #tablet h1 {
+        display: block;
+    }
+}
+
+/* Normal */
+@media(min-width: 769px) and (max-width: 1200px) {
+    #normal h1 {
+        display: block;
+    }
+}
+
+/* Widescreen */
+@media(min-width: 1201px) {
+    #widescreen h1{
+        display: block;
+    }
+}
+
+/* Landscape */
+@media (max-height: 500px) {
+    #landscape h1 {
+      display: block;
+    }
+  }

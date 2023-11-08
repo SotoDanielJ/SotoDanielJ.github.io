@@ -68,8 +68,10 @@ h1 p{
 }
 
 .about{
-    padding-left: 2%;
-    padding-right: 2%;
+    /* padding-left: 2%;
+    padding-right: 2%; */
+    /* margin-left: 15%;
+    margin-right: 15%; */
     padding-bottom: 1.5%;
     padding-top: 0.5%;
     color: aliceblue;
@@ -89,11 +91,17 @@ footer p{
     height: 50px;
 }
 
+/* Buttons */
+
 .buttons{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0;
+    width: 100%;
 }
 
 .button1{
@@ -288,3 +296,37 @@ box-shadow:
 inset -2px -2px 3px rgba(255, 255, 255, 0.6),
 inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+/* Smartphones */
+@media only screen and (max-width: 500px) {
+    #smartphone h1{
+        display: block;
+    }
+}
+
+/* Tablet */
+@media(min-width: 501px) and (max-width: 768px) {
+    #tablet h1 {
+        display: block;
+    }
+}
+
+/* Normal */
+@media(min-width: 769px) and (max-width: 1200px) {
+    #normal h1 {
+        display: block;
+    }
+}
+
+/* Widescreen */
+@media(min-width: 1201px) {
+    #widescreen h1{
+        display: block;
+    }
+}
+
+/* Landscape */
+@media (max-height: 500px) {
+    #landscape h1 {
+      display: block;
+    }
+  }
