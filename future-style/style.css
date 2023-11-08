@@ -82,9 +82,10 @@ h1 p {
     align-items: center;
     justify-content: center;
 }
+
 .f img {
     margin-top: 2%;
-    max-width: 1000px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -143,6 +144,41 @@ footer p {
     left: 19%; */
     inline-size: auto;
     cursor: pointer;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-wrap: nowrap;
+    inline-size: auto;
+    cursor: pointer;
+    height: auto;
+    border: 0;
+    line-height: 2.5;
+    padding: 1%;
+    font-size: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(18, 123, 243, 0.87);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button:hover {
+    background-color: rgba(18, 123, 243, 0.87);
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .button1 {
@@ -234,9 +270,10 @@ footer p {
         inset -2px -2px 3px rgba(255, 255, 255, 0.6),
         inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+
 /* Smartphones */
 @media only screen and (max-width: 500px) {
-    #smartphone h1{
+    #smartphone h1 {
         display: block;
     }
 }
@@ -257,7 +294,7 @@ footer p {
 
 /* Widescreen */
 @media(min-width: 1201px) {
-    #widescreen h1{
+    #widescreen h1 {
         display: block;
     }
 }
@@ -265,6 +302,6 @@ footer p {
 /* Landscape */
 @media (max-height: 500px) {
     #landscape h1 {
-      display: block;
+        display: block;
     }
-  }
+}

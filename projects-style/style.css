@@ -1,381 +1,316 @@
 html {
-  width: auto;
+    width: auto;
 }
 
 body {
-  height: auto;
-  box-sizing: border-box;
-  margin: auto;
-  background: url(/images/nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat;
-  background-size: cover;
-  width: auto;
-  margin: 0;
+    height: auto;
+    box-sizing: border-box;
+    margin: auto;
+    background: url(/images/nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat;
+    background-size: cover;
+    width: auto;
+    margin: 0;
 }
 
 .container {
-  display: block;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+    /* width: 75%; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 a img {
-  height: 200px;
+    height: 200px;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px
 }
 
 h1 {
-  color: rgba(18, 123, 243, 0.87);
-  font-size: 2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
+    color: rgba(18, 123, 243, 0.87);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* height: 80px;
+    width: 1217px; */
 }
 
 h1 p {
-  margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .border {
-  border-bottom: 1px solid rgba(18, 123, 243, 0.87);
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 1%;
-  margin-top: 1%;
+    border-bottom: 1px solid rgba(18, 123, 243, 0.87);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
 }
 
 .h {
-  display: block;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.projects {
-  padding-left: 2%;
-  padding-right: 2%;
-  padding: 2%;
-  color: aliceblue;
-  opacity: 80%;
+.future {
+    color: aliceblue;
+    background-color: black;
+    opacity: 80%;
+  }
+  
+  .f {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .f img {
+    margin-top: 2%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.fp {
+  display: grid;
+  background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    object-fit: scale-down;
+    padding-bottom: 3%;
+}
+
+.fi {
+    border-bottom: 1px solid rgba(18, 123, 243, 0.87);
+    width: 1000px;
+    padding-bottom: 1%;
+    margin-top: 1.5%;
+}
+.scrollg{
+  width: 700px;
+  margin: auto;
+  scrollbar-gutter: auto;
+  overflow: scroll;
+  scroll-behavior: auto;
+  scroll-snap-type: none;
+  scrollbar-color: auto;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
 .indent {
-  text-indent: 40px;
+    text-indent: 40px;
 }
 
 footer p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(18, 123, 243, 0.87);
-  font-size: 1em;
-  height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(18, 123, 243, 0.87);
+    font-size: 1em;
+    height: 50px;
 }
 
 /* Buttons */
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  margin: 0;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0;
+    width: 100%;
 }
 
 .button1 {
-  margin: 1%;
-  inline-size: auto;
-  cursor: pointer;
+    margin: 1%;
+    /* position: absolute;
+    left: 19%; */
+    inline-size: auto;
+    cursor: pointer;
 }
 
 .button2 {
-  margin: 1%;
-  inline-size: auto;
-  cursor: pointer;
+    /* position: absolute;
+    left: 19%; */
+    inline-size: auto;
+    cursor: pointer;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-wrap: nowrap;
+    inline-size: auto;
+    cursor: pointer;
+    height: auto;
+    border: 0;
+    line-height: 2.5;
+    padding: 1%;
+    font-size: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(18, 123, 243, 0.87);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button:hover {
+    background-color: rgba(18, 123, 243, 0.87);
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .button1 {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(18, 123, 243, 0.87);
-  background-image: linear-gradient(to top left,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2) 30%,
-      rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(18, 123, 243, 0.87);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .button1:hover {
-  background-color: rgba(18, 123, 243, 0.87);
+    background-color: rgba(18, 123, 243, 0.87);
 }
 
 .button1:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .button2 {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(18, 123, 243, 0.87);
-  background-image: linear-gradient(to top left,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2) 30%,
-      rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(18, 123, 243, 0.87);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .button2:hover {
-  background-color: rgba(18, 123, 243, 0.87);
+    background-color: rgba(18, 123, 243, 0.87);
 }
 
 .button2:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-/* Article */
-
-.projects {
-  margin: 0;
-  padding: 0.3rem;
-}
-.head{
-  margin-left: 19.5%;
-  margin-right: 19.5%;
-}
-.articlebox {
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  margin: 0;
-  width: 100%;
-}
-.center{
-  display: block;
-  /* margin-left: auto;
-  margin-right: auto; */
-  object-fit: scale-down;
-  width: 380px;
-  height: 380px;
-  
-}
-.projects>h1 {
-  font-size: 2rem;
-  background-color: #000;
-  opacity: 90%;
+.button3 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(18, 123, 243, 0.87);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
-.vpet {
-  margin-bottom: 1.2%;
-  background: black;
-  justify-content: center;
-  padding-bottom: 1.8%;
-}
-.blackjack {
-  display: inline-block;
-  background: black;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1.8%;
-  width: 1661px;
-}
-.garage {
-  background: black;
-  justify-content: center;
-  height: 525px;
-  padding-bottom: 1%;
+.button3:hover {
+    background-color: rgba(18, 123, 243, 0.87);
 }
 
-.vpet>h2{
-  font-family: "Courier New", Courier, monospace;
-  color: rgb(18, 123, 243, 0.87);
-  padding-top: 1%;
-  font-size: 1.5rem;
-  text-align: center;
-  text-wrap: wrap;
-  margin-top: 0;
+.button3:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
-.blackjack>h2{
-  font-family: "Courier New", Courier, monospace;
-  color: rgb(18, 123, 243, 0.87);
-  padding-top: 1%;
-  font-size: 1.5rem;
-  text-align: center;
-  text-wrap: wrap;
+
+/* Smartphones */
+@media only screen and (max-width: 500px) {
+    #smartphone h1 {
+        display: block;
+    }
 }
-.garage>h2{
-  font-family: "Courier New", Courier, monospace;
-  color: rgb(18, 123, 243, 0.87);
-  padding-top: 1%;
-  font-size: 1.5rem;
-  text-align: center;
-  text-wrap: wrap;
+
+/* Tablet */
+@media(min-width: 501px) and (max-width: 768px) {
+    #tablet h1 {
+        display: block;
+    }
 }
-.button {
-  text-wrap: nowrap;
-  margin: 1%;
-  inline-size: auto;
-  cursor: pointer;
-  height: 1%;
-  border: 0;
-  line-height: 2.5;
-  padding: 1%;
-  font-size: 1rem;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(18, 123, 243, 0.87);
-  background-image: linear-gradient(to top left,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2) 30%,
-      rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+
+/* Normal */
+@media(min-width: 769px) and (max-width: 1200px) {
+    #normal h1 {
+        display: block;
+    }
 }
-.button:hover {
-  background-color: rgba(18, 123, 243, 0.87);
+
+/* Widescreen */
+@media(min-width: 1201px) {
+    #widescreen h1 {
+        display: block;
+    }
 }
-.button:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-.buttong {
-  text-wrap: nowrap;
-  cursor: pointer;
-  width: auto;
-  height: 2%;
-  border: 0;
-  line-height: 2.5;
-  padding: 1%;
-  font-size: 1rem;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(18, 123, 243, 0.87);
-  background-image: linear-gradient(to top left,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2) 30%,
-      rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-.buttong:hover {
-  background-color: rgba(18, 123, 243, 0.87);
-}
-.buttong:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-.bkjk{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 45%;
-  margin-top: 24%;
-  padding-top: 1%;
-}
-.vp{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 45%;
-  margin-top: 24%;
-  padding-top: 2.5%;
-}
-.buttonb {
-  text-wrap: nowrap;
-  cursor: pointer;
-  padding: 1%;
-  border: 0;
-  line-height: 2.5;
-  font-size: 1rem;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(18, 123, 243, 0.87);
-  background-image: linear-gradient(to top left,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2) 30%,
-      rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-.buttonb:hover {
-  background-color: rgba(18, 123, 243, 0.87);
-}
-.buttonb:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-body {
-padding: 5%;
-text-align: center;
-font-size: 50;
-}
-#slideshow {
-height: 380px;
-position: relative;
-margin: auto;
-margin-left: 19%;
-margin-right: 27%;
-overflow: hidden;
-padding-bottom: 1%;
-}
-.slide {
-  float: left;
-  height: 380px;
-  width: 380px;
-  object-fit: scale-down;
-}
-.slide-wrapper {
-  animation: slide 10s step-start infinite;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-  height: 380px;
-  margin-left: 500px;
-}
-@keyframes slide {
-70% {
-	margin-left: calc(-300px * 3);
-}
+
+/* Landscape */
+@media (max-height: 500px) {
+    #landscape h1 {
+        display: block;
+    }
 }
